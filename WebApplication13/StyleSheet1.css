@@ -1,0 +1,138 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('image/gettyimages-1420066200-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+head .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: 25px;
+    color: #333;
+    list-style: none;
+    text-decoration: none;
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+    header .navbar ul li {
+        position: relative;
+        float: left;
+    }
+
+        header .navbar ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+            color: rgb(103, 14, 245);
+            display: block;
+        }
+
+            header .navbar ul li a:hover {
+                background: black;
+                color: #1af70e;
+            }
+
+        header .navbar ul li ul {
+            position: absolute;
+            left: 0;
+            width: 200px;
+            background: #f8f7f7;
+            display: none;
+        }
+
+            header .navbar ul li ul li {
+                width: 100%;
+                border-top: 1px solid rgb(0,0,0,1);
+            }
+
+                header .navbar ul li ul li ul {
+                    left: 200px;
+                    top: 0;
+                }
+
+        header .navbar ul li:hover > ul {
+            display: initial;
+        }
+
+.c {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+    .c .d {
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+    }
+
+    .c .e {
+        color: white;
+        font-size: 52px;
+        font-weight: 600;
+    }
+
+    .c .f {
+        margin-top: 20px;
+    }
+
+        .c .f button {
+            height: 55px;
+            width: 170px;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            border: 2px solid white;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0 10px;
+            outline: none;
+        }
+            /* button:hover{
+background: white;
+color: black;
+} */
+            .c .f button:first-child {
+                background: white;
+                color: black;
+            }
+
+            .c .f button:hover {
+                background-color: black;
+                color: white;
+            }
+
+        .c .f .g button:last-child {
+            background: white;
+            color: black;
+        }
