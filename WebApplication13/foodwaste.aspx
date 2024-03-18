@@ -50,7 +50,7 @@
               <asp:Label ID="Label1" runat="server"></asp:Label>
           </p>
        </div> 
-      <div class="b">
+      <div class="b4
         <a href="./foodwasteform.html">
          <%-- <input type="submit" value="Register" class="btn">--%>
 

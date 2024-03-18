@@ -68,9 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
+    <Content Include="contact.js" />
+    <Content Include="feedback.js" />
+    <Content Include="foodwaste.js" />
     <Content Include="foodwasteform.aspx" />
     <Content Include="garbagewaste.aspx" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="image\953eFl.jpg" />
     <Content Include="image\download.jpg" />
     <Content Include="image\Food-waste-2-scaled.jpeg" />
     <Content Include="image\gettyimages-1420066200-612x612.jpg" />

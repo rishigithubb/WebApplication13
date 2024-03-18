@@ -28,12 +28,12 @@ namespace WebApplication13
 
             int smtpPort = 587;
 
-            string smtpUsername = "dinesh.uniq45@gmail.com";
+            string smtpUsername = "rishiuniqtechnologies@gmail.com";
 
 
 
             // Sender and recipient email addresses
-            string fromEmail = "dinesh.uniq45@gmail.com";
+            string fromEmail = "din@gmail.com";
 
             string toEmail = TextBox2.Text;
 
@@ -59,7 +59,7 @@ namespace WebApplication13
             // smtpClient.UseDefaultCredentials = false;
             smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 
-            smtpClient.Credentials = new NetworkCredential(smtpUsername, "zrxw yswv gcra ozuq");
+            smtpClient.Credentials = new NetworkCredential(smtpUsername, "iego odun hcwv vrwq");
 
             // Create and send the email message
             MailMessage mailMessage = new MailMessage(fromEmail, toEmail, subject, body);

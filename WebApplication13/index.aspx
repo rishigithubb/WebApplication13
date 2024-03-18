@@ -10,7 +10,7 @@
 </head>
 <body>
    <header>
-        <a href="#" class="logo"><img src="image/img.jpg" alt="" width="220 px" height="89px"></a>
+        <a href="#" class="logo"></a>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>

@@ -16,7 +16,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h3>&#128515;Rate DOTNET PASANGA website with your Feedback&#128515;</h3> 
+            <h3>😃Rate website with your Feedback&#128515;</h3> 
 	<%--<div class="a"> --%>
 		
 		</div>
@@ -57,7 +57,7 @@
 
 			<label> 
 				<i class="fa-solid fa-face-smile"></i> 
-				Satisfied with our dotent pasanga website? 
+				Satisfied with our website? 
 			</label> 
 			<div class="b"> 
 				<%--<input type="radio" id="yes"
