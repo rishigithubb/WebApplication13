@@ -61,10 +61,10 @@ namespace WebApplication13
 
             int smtpPort = 587;
 
-            string smtpUsername = "rishiuniqtechnologies@gmail.com";
+            string smtpUsername = "shafrulmiskathuniq@gmail.com";
 
             
-            string fromEmail = "kettavanstr99@gmail.com";
+            string fromEmail = "shafrulmiskathdir@gmail.com";
 
             string toEmail = TextBox1.Text;
 
@@ -80,7 +80,7 @@ namespace WebApplication13
            
             smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
 
-            smtpClient.Credentials = new NetworkCredential(smtpUsername, "iego odun hcwv vrwq");
+            smtpClient.Credentials = new NetworkCredential(smtpUsername, "zman wniy cdlt kyde");
 
             
             MailMessage mailMessage = new MailMessage(fromEmail, toEmail, subject, body);
